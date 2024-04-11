@@ -2,3 +2,13 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+.light {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+  }
+  
+  /* Dark Theme Styles */
+  .dark {
+    --bg-color: #333333;
+    --text-color: #ffffff;
+  }
